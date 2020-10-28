@@ -65,7 +65,9 @@
           <li><a href="#contact">Contact</a></li>
 
           <li class="book-a-table text-center"><a href="{{ url('/login')}}">Login</a></li>
-           <li class="book-a-table text-center"><a href="{{ url('/Checkout')}}">Checkout</a></li>
+          <li class="book-a-table text-center"><a href="{{ url('/Checkout')}}">Checkout</a></li>
+          <li class="book-a-table text-center"><a href="{{ url('/login')}}">LoginAdmin</a></li>
+         
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -531,6 +533,9 @@
 
       </div>
     </section><!-- End Contact Section -->
+
+
+
 
   </main><!-- End #main -->
 

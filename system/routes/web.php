@@ -44,3 +44,30 @@ Route::get('/login', function () {
 Route::get('/Checkout', function () {
     return view('Checkout');
 });
+
+Route::get('/loginAdmin', function () {
+    return view('loginAdmin');
+});
+
+Route::get('/beranda', function () {
+    return view('beranda');
+});
+
+Route::get('/index2', function () {
+    return view('index2');
+});
+
+Route::get('/kategori', function () {
+    return view('kategori');
+});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('/promosi', function () {
+    return view('promosi');
+});
+
+Route::get('/loginAdmin2', function () {
+    return view('loginAdmin2');
+});
