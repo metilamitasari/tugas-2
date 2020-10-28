@@ -41,8 +41,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/Checkout', function () {
-    return view('Checkout');
+Route::get('/checkout', function () {
+    return view('checkout');
 });
 
 Route::get('/loginAdmin', function () {
@@ -70,4 +70,11 @@ Route::get('/promosi', function () {
 
 Route::get('/loginAdmin2', function () {
     return view('loginAdmin2');
+});
+Route::get('/signin', function () {
+    return view('signin');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });

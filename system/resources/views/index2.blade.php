@@ -215,6 +215,14 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="signin" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Create Account
+              </p>
+            </a>
+          </li>
           <li class="nav-item has-treeview">
             <a href="loginAdmin2" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
